@@ -1,0 +1,150 @@
+Date:
+2022年 05月 20日 星期五 10:02:39 CST
+
+OS version:
+Debian GNU/Linux 11 \n \l
+
+Hardware information:
+Linux debian 5.10.0-12-amd64 #1 SMP Debian 5.10.103-1 (2022-03-07) x86_64 GNU/Linux
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+stepping	: 12
+microcode	: 0xb8
+cpu MHz		: 1992.002
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves arat md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds
+bogomips	: 3984.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        1996308 kB
+MemFree:          438864 kB
+MemAvailable:     993688 kB
+Buffers:           35616 kB
+Cached:           646228 kB
+SwapCached:            0 kB
+Active:           280124 kB
+Inactive:        1040948 kB
+Active(anon):       1556 kB
+Inactive(anon):   653608 kB
+Active(file):     278568 kB
+Inactive(file):   387340 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:        998396 kB
+SwapFree:         998396 kB
+Dirty:                64 kB
+Writeback:             0 kB
+AnonPages:        612948 kB
+Mapped:           321392 kB
+Shmem:             15936 kB
+KReclaimable:      40708 kB
+Slab:              99696 kB
+SReclaimable:      40708 kB
+SUnreclaim:        58988 kB
+KernelStack:        9072 kB
+PageTables:        13656 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1996548 kB
+Committed_AS:    3446856 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       25380 kB
+VmallocChunk:          0 kB
+Percpu:            94208 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    188416 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      178048 kB
+DirectMap2M:     1918976 kB
+DirectMap1G:           0 kB
+
+Uptime:
+10:05:06 up 4 min,  1 user,  load average: 0.50, 1.47, 0.77
+
+Service information:
+[ - ]  alsa-utils
+ [ + ]  anacron
+ [ + ]  apparmor
+ [ + ]  avahi-daemon
+ [ + ]  bluetooth
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  dbus
+ [ + ]  gdm3
+ [ - ]  hwclock.sh
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  networking
+ [ + ]  open-vm-tools
+ [ - ]  plymouth
+ [ + ]  plymouth-log
+ [ + ]  procps
+ [ - ]  pulseaudio-enable-autospawn
+ [ + ]  rsyslog
+ [ - ]  saned
+ [ + ]  snort
+ [ - ]  speech-dispatcher
+ [ - ]  sudo
+ [ + ]  udev
+ [ + ]  unattended-upgrades
+ [ - ]  x11-common
+
+Nic information:
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.232.128  netmask 255.255.255.0  broadcast 192.168.232.255
+        inet6 fe80::20c:29ff:fe5c:8495  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:5c:84:95  txqueuelen 1000  (Ethernet)
+        RX packets 15387  bytes 21053371 (20.0 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9239  bytes 639589 (624.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 54  bytes 4252 (4.1 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 54  bytes 4252 (4.1 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0Route information:
+
+
+Route information:
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.232.2   0.0.0.0         UG        0 0          0 ens33
+192.168.232.0   0.0.0.0         255.255.255.0   U         0 0          0 ens33
+
+Arp information:
+_gateway (192.168.232.2) at 00:50:56:fb:db:91 [ether] on ens33
+
+Information of processes:
+
